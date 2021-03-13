@@ -1,0 +1,215 @@
+.header-image {
+    width: 100%;
+    height: 30vh;
+}
+
+.app-container {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+.landing {
+    text-align: center;
+    width: 90vw;
+    height: 600px;
+    margin: auto;
+    display: block;
+}
+
+.footer {
+    /* border: 1px solid gray; */
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 5vh;
+    margin-bottom: 3px;
+    background-color: #dad6ca;
+    border-radius: 25px;
+}
+
+
+.inline {
+    display: inline;
+}
+
+.icon {
+    width: 1vw;
+    height: 2vh
+}
+
+.fancy {
+    line-height: 3px;
+    text-align: center;
+}
+
+.fancy span {
+    display: inline-block;
+    position: relative;
+    font-family: 'Dancing Script';
+    font-size: 3vw;
+}
+
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 7px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    top: 0;
+    width: 30vw;
+}
+
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+.footer-linkes {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-linkes:hover {
+    text-decoration: none;
+    color: black;
+    text-shadow: 0 0 10px gray;
+}
+
+.footer-text {
+    padding-left: 10vw;
+}
+
+/* Style of profile */
+.background-profile {
+    width: 100%;
+    height: 100vh;
+}
+
+.user-info-container {
+    margin: 10px;
+    position: absolute;
+    left: 10vw;
+    top: 60vh;
+    /* z-index: 1; */
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 30vh;
+    height: 15vw;
+    box-shadow: 0 0 20px gray;
+}
+
+.user-info {
+    position: absolute;
+    left: 27vw;
+    top: 3vh;
+    width: 50vw
+}
+
+#button {
+    margin: 15% 15%;
+
+}
+
+#button>button {
+    margin: 5%;
+}
+
+.review-container {
+    width: 40vw;
+    height: auto;
+    margin: 3%;
+    border-radius: 25px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.156);
+}
+
+.review-book {
+    background-color: #ffffff64;
+    border-radius: 10px;
+}
+
+.review-content {
+    word-wrap: break-word;
+
+}
+
+.review-book,
+.review-content {
+    padding: 2%;
+    padding-left: 5%;
+    margin: 3%;
+}
+
+.overflow {
+    width: 50vw;
+    height: 60vh;
+    overflow-y: scroll;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+
+.text-over-image {
+    text-align: center;
+    padding: 10vh 4vw;
+    color: #f0f0f0;
+    width: 80vw;
+
+    position: absolute;
+    top: 70vh;
+    left: 10vw;
+}
+
+.text-over-image>.title {
+    font-size: 1.5vw;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 10px;
+
+    text-shadow: 0 0 10px black;
+    text-shadow: 1px 0 10px black;
+    text-shadow: 0 1px 10px black;
+    text-shadow: 1px 1px 10px black;
+
+}
+
+.text-over-image>.button {
+    background-color: rgba(0, 0, 0, 0.428);
+    color: gray;
+    border-radius: 10px;
+    padding: 5px;
+    transition: ease-in-out 0.5s;
+
+}
+
+.text-over-image>.button:hover {
+    transition: ease-in-out 0.5s;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.768);
+    text-shadow: 0 0 20px #f0f0f0;
+    text-shadow: 0 1px 20px #f0f0f0;
+    text-shadow: 1px 0 20px #f0f0f0;
+    text-shadow: 1px 1px 20px #f0f0f0;
+
+}
+
+.content {
+    width: 80%;
+    margin: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2rem;
+    font-weight: 100;
+    /* letter-spacing: 5px; */
+    margin-top: 10vh;
+    text-align: left;
+}

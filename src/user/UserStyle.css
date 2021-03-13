@@ -1,0 +1,170 @@
+/* body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color:#fff;
+} */
+
+.container-min{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.form-box-box, .body-form-body > .form-min > .input-group-min {
+ 
+  border: 2px solid #b68973;
+  background-color: #f0f0f0;
+  border-radius: 2%;
+  margin-bottom: 15px;
+  padding:20px;
+  border-radius:2%;
+    width: 450px;
+    height: 350px;
+    padding: 20px;
+
+}
+
+.header-form> .headOne{
+color: #000;
+background-color: #f0f0f0;
+font-size:37px;
+padding-bottom: 15px;
+}
+.inline{
+display: inline;
+}
+.form-control{
+height: 100%;
+}
+
+.container-registertion{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  width:100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.form-box-registertion, .body-form-registertion > .form-registertion > .input-group-registertion {
+
+border: 2px solid #b68973;
+background-color: #f0f0f0;
+border-radius: 2%;
+margin-bottom: 15px;
+padding:20px;
+border-radius:2%;
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+
+.container-addBook{
+  /* display:flex; */
+  background-color:#e2dfd5;
+  align-items:center;
+  justify-content:center;
+  height:300px;
+  width:500px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.form-box-addBook, .body-form-addBook > .form-addBook > .input-group-addBook {
+
+  border: 2px solid #b68973;
+  background-color: #f0f0f0;
+  border-radius: 2%;
+  margin-bottom: 15px;
+  padding:20px;
+  border-radius:2%;
+  width:500px;
+    height: 600px;
+    padding: 20px;
+  }
+
+
+  .container-editBook{
+    /* display:flex; */
+    background-color:#e2dfd5;
+    align-items:center;
+    justify-content:center;
+    height:300px;
+    width:500px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .form-box-editBook, .body-form-editBook > .form-editBook > .input-group-editBook {
+  
+    border: 2px solid #b68973;
+    background-color: #f0f0f0;
+    border-radius: 2%;
+    margin-bottom: 15px;
+    padding:20px;
+    border-radius:2%;
+    width:500px;
+      height: 600px;
+      padding: 20px;
+    }
+    .container-uProfile{
+      display:flex;
+  align-items:center;
+  justify-content:center;
+  height:100vh;
+  width:100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+    }
+    .form-box-uProfile, .body-form-uProfile > .form-uProfile> .input-group-uProfile {
+    
+      border: 2px solid #b68973;
+      background-color: #f0f0f0;
+      border-radius: 2%;
+      margin-bottom: 15px;
+      padding:20px;
+      border-radius:2%;
+        width: 450px;
+        height: 350px;
+        padding: 20px;
+      } 
+
+
+    .container-updatePas{
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      height:100vh;
+      width:100%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .form-box-updatePas, .body-form-updatePas > .form-updatePas > .input-group-updatePas {
+    
+      border: 2px solid #b68973;
+      background-color: #f0f0f0;
+      border-radius: 2%;
+      margin-bottom: 15px;
+      padding:20px;
+      border-radius:2%;
+        width: 450px;
+        height: 350px;
+        padding: 20px;
+      }
+ 
