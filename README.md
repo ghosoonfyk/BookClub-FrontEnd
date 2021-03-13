@@ -3,12 +3,13 @@
 ## Introduction
 Book-Club is a friendly website that gathers some books as cards, each card contains the book poster and the title. Also, when anyone clicks on the book it will transfer to the book details that contain the author name, book description, number of pages, and publishing date. However, it’s able for the user to view and add reviews for each book. Moreover, the user can edit or delete his/her review. On the other hand, the user can add books and only edit books that he/she added but only the admin can delete the book. the user and can control his/her profile by editing the name, image, and changing the password but he/she can’t edit the Email Address for the user protection issue.
 Finally, only the admin can add, edit, and delete any book or review. 
-
+## Demo
+<a href="https://youtu.be/yKHsSLJgpmk" target="_blank">Book-Club</a>
 ## Wireframes (Link)
 <a href="https://drive.google.com/file/d/1VJs4uUbfZhtfeeudQgMIL48ucGm6Lknf/view">wireframe</a>
 
 ## Important Links
-<a href="https://git.generalassemb.ly/ghosoonfk/bookclub-backend">back-end</a>
+<a href="https://github.com/ghosoonfyk/BookClub-BackEnd.git">back-end</a>
 
 ## Technologies User    
 - React 17.0.1
@@ -47,4 +48,3 @@ Finally, only the admin can add, edit, and delete any book or review.
 - Make direct relation between <b>Book</b> and <b>User</b>.
 - Add creation date of review.
 - Add annotation when reveiew is edited.
-
